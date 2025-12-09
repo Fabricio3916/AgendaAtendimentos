@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: nome projeto
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/agenda
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  flyway:
+    enabled: true
