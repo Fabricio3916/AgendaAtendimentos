@@ -38,7 +38,7 @@ public class Atendimento {
     @JoinColumn(name = "tecnico_id")
     private Tecnico tecnico;
 
-    @Column(name = "Abertura")
+    @Column(name = "abertura")
     @CreationTimestamp
     private LocalDateTime aberturaAtendimento;
 
